@@ -1,8 +1,8 @@
 //faça uma função em F# que dado um valor escreve seu valor absoluto (sem sinal)
 
-let a = -10
-let valorAbsoluto x =
-    if x < 0 then -x else x
+let a = -5
+let valorAbsoluto a =
+    if a < 0 then a * -1 else a
 
 let resultado = valorAbsoluto a
 
